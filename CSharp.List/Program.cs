@@ -77,3 +77,8 @@ List<int> ls3 = new();
 
 Console.WriteLine(ls3.Count);
 
+string a = null;
+
+a ??= "def";
+
+Console.WriteLine(a);
